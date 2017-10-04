@@ -1,15 +1,25 @@
 {
-  "name": "baiscExpressWebServer",
+  "name": "baiscexpresswebserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "run \"npm install\", open your favorite browser, and go to localhost:5000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Mark Buckner <buckner.a.mark@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.15.4"
-  }
+    "express": "^4.15.4",
+    "node-fetch": "^1.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtual/basicExpressWebServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/virtual/basicExpressWebServer/issues"
+  },
+  "homepage": "https://github.com/virtual/basicExpressWebServer#readme"
 }
